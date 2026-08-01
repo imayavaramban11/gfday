@@ -28,9 +28,19 @@ const REASONS = [
 // Gallery photos — put your images in assets/images/ and list filenames here
 // Leave empty to show placeholder hearts instead
 const GALLERY_IMAGES = [
-  // "assets/images/photo1.jpg",
-  // "assets/images/photo2.jpg",
-  // "assets/images/photo3.jpg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.55.58 PM.jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.55.58 PM (1).jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.55.58 PM (2).jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.55.58 PM (3).jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.55.58 PM (4).jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.55.59 PM.jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.55.59 PM (1).jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.55.59 PM (2).jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.55.59 PM (3).jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.55.59 PM (4).jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.56.00 PM.jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.56.00 PM (1).jpeg",
+  "assets/images/WhatsApp Image 2026-08-01 at 10.56.00 PM (2).jpeg",
 ];
 
 /* =========================================================
