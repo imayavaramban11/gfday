@@ -28,19 +28,19 @@ const REASONS = [
 // Gallery photos — put your images in assets/images/ and list filenames here
 // Leave empty to show placeholder hearts instead
 const GALLERY_IMAGES = [
-  "assets/images/WhatsApp Image 2026-08-01 at 10.55.58 PM.jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.55.58 PM (1).jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.55.58 PM (2).jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.55.58 PM (3).jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.55.58 PM (4).jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.55.59 PM.jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.55.59 PM (1).jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.55.59 PM (2).jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.55.59 PM (3).jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.55.59 PM (4).jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.56.00 PM.jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.56.00 PM (1).jpeg",
-  "assets/images/WhatsApp Image 2026-08-01 at 10.56.00 PM (2).jpeg",
+  "assets/images/photo1.jpg",
+  "assets/images/photo2.jpg",
+  "assets/images/photo3.jpg",
+  "assets/images/photo4.jpg",
+  "assets/images/photo5.jpg",
+  "assets/images/photo6.jpg",
+  "assets/images/photo7.jpg",
+  "assets/images/photo8.jpg",
+  "assets/images/photo9.jpg",
+  "assets/images/photo10.jpg",
+  "assets/images/photo11.jpg",
+  "assets/images/photo12.jpg",
+  "assets/images/photo13.jpg"
 ];
 
 /* =========================================================
