@@ -38,9 +38,7 @@ const GALLERY_IMAGES = [
   "assets/images/photo8.jpg",
   "assets/images/photo9.jpg",
   "assets/images/photo10.jpg",
-  "assets/images/photo11.jpg",
-  "assets/images/photo12.jpg",
-  "assets/images/photo13.jpg"
+  "assets/images/photo11.jpg"
 ];
 
 /* =========================================================
