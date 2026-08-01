@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="theme-color" content="#ff8fb1">
+<title>Happy GF Day, My Love 💕</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <!-- Intro flow: question -> (short message OR envelope) -> full site -->
+  <div class="envelope-overlay" id="envelopeOverlay">
+
+    <!-- Stage 1: the question -->
+    <div class="intro-stage" id="stageQuestion">
+      <p class="question-text">Do you think just a story or a message is enough for you, darling?</p>
+      <div class="question-buttons">
+        <button class="choice-btn" id="btnYes">Yes, that's plenty</button>
+        <button class="choice-btn primary" id="btnNo">No, give me everything 💕</button>
+      </div>
+    </div>
+
+    <!-- Stage 2a: shown if she picks "yes" -->
+    <div class="intro-stage hidden" id="stageMessage">
+      <p class="mini-message">Okay then... just this:<br>I love you, today and every day. 💗</p>
+      <button class="choice-btn primary" id="btnMore">Okay fine, show me more anyway</button>
+    </div>
+
+    <!-- Stage 2b: shown if she picks "no", or taps "show me more" above -->
+    <div class="intro-stage hidden" id="stageEnvelope">
+      <div class="envelope" id="envelope">
+        <div class="envelope-flap"></div>
+        <div class="envelope-body">
+          <p class="envelope-text">A little something for you...</p>
+        </div>
+      </div>
+      <p class="tap-hint">tap the envelope 💌</p>
+    </div>
+
+  </div>
+
+  <main id="mainContent" class="hidden">
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1 class="title">Happy GF Day, <span id="gfName">My Love</span> 💗</h1>
+      <p class="subtitle">To the best part of my everyday.</p>
+      <div class="scroll-down">↓ scroll for cute stuff ↓</div>
+    </section>
+
+    <!-- Reasons I love you - flip cards -->
+    <section class="section reasons-section">
+      <h2>Reasons I Love You</h2>
+      <p class="section-hint">(tap a card to flip it)</p>
+      <div class="cards-grid" id="cardsGrid"></div>
+    </section>
+
+    <!-- Love letter -->
+    <section class="section letter-section">
+      <h2>A Note, Just For You</h2>
+      <div class="letter-paper">
+        <p id="letterText">
+          Dear love, every day with you feels like a page from my favorite story.
+          Thank you for your laugh, your patience, and your beautiful heart.
+          Here's to many more silly memories, warm hugs, and cute little days like this one.
+          I love you more than words (and this website) can say. 💌
+        </p>
+        <p class="signoff">— Yours, always</p>
+      </div>
+    </section>
+
+    <!-- Photo memories -->
+    <section class="section gallery-section">
+      <h2>Our Little Moments</h2>
+      <p class="section-hint">(replace the images in <code>assets/images/</code> with your own!)</p>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="section countdown-section">
+      <h2>Counting Down To...</h2>
+      <p class="section-hint">Edit the target date in <code>script.js</code></p>
+      <div class="countdown" id="countdown">
+        <div class="countdown-box"><span id="cd-days">00</span><small>days</small></div>
+        <div class="countdown-box"><span id="cd-hours">00</span><small>hours</small></div>
+        <div class="countdown-box"><span id="cd-mins">00</span><small>mins</small></div>
+        <div class="countdown-box"><span id="cd-secs">00</span><small>secs</small></div>
+      </div>
+      <p class="countdown-label" id="countdownLabel">until our next date night 🌙</p>
+    </section>
+
+    <!-- Love meter / button game -->
+    <section class="section meter-section">
+      <h2>How Much Do I Love You?</h2>
+      <p class="section-hint">Keep clicking the heart and find out</p>
+      <button class="love-btn" id="loveBtn">💗</button>
+      <div class="meter-bar">
+        <div class="meter-fill" id="meterFill"></div>
+      </div>
+      <p class="meter-text" id="meterText">0%</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Made with 💗 and a lot of overthinking about fonts.</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
